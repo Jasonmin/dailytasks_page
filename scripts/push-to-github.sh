@@ -5,7 +5,7 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$ROOT"
 
-REMOTE="${REMOTE:-https://github.com/jasonmin/dailytasks_page.git}"
+REMOTE="${REMOTE:-git@github.com:Jasonmin/dailytasks_page.git}"
 BRANCH="${BRANCH:-main}"
 
 if [[ ! -d .git ]]; then

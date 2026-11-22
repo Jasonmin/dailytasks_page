@@ -11,7 +11,9 @@ cd dailytasks_page
 ./scripts/push-to-github.sh
 ```
 
-仓库 `jasonmin/dailytasks_page` 在 GitHub → **Settings → Pages** 选择 **GitHub Actions**（已含 `.github/workflows/pages.yml`）或 **Deploy from branch `main` / root**。成功后可访问：
+仓库 `jasonmin/dailytasks_page` 的 Pages 已配置为 **GitHub Actions**（源 `.github/workflows/pages.yml`，`main` 分支 push 自动部署）。可访问：
 
 - https://jasonmin.github.io/dailytasks_page/
 - https://jasonmin.github.io/dailytasks_page/privacy/
+- https://jasonmin.github.io/dailytasks_page/support/
+- https://jasonmin.github.io/dailytasks_page/terms/
